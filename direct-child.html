@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direct Child</title>
+    <style>
+        article>p {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        section>p>strong {
+            color: white;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <a href="./index.html">Back to home</a>
+    <article>
+        <h1>Parent Child Selectors</h1>
+        <p>Select the paragraphs in the article and not in the section</p>
+        <section>
+            <h2>A section in an article</h2>
+            <p>Lorem ipsum dolor <strong>sit amet, consectetur adipisicing elit</strong>. Iure harum ipsam fuga
+                voluptatem placeat sed
+                eaque nihil beatae.</p>
+        </section>
+        <p>
+            Lorem, ipsum <strong> dolor sit amet consectetur adipisicing elit</strong>. Rem eum autem et ad incidunt
+            harum, non vel
+            voluptatibus doloribus sint?
+        </p>
+    </article>
+</body>
+</html>
